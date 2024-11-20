@@ -2,15 +2,13 @@ import express from 'express';
 
 const router = express.Router();
 
-router.get("/signup", (req, res) => {
-    res.send("signup router");
-})
+router.post("/signup",)
 
-router.get("/login", (req, res) => {
+router.post("/login", (req, res) => {
     res.send("login router");
 })
 
-router.get("/logout", (req, res) => {
+router.post("/logout", (req, res) => {
     res.send("logout router");
 })
 
